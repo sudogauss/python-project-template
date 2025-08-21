@@ -108,12 +108,8 @@ python_files = ["test_*.py", "*_test.py"]
 python_classes = ["Test*"]
 python_functions = ["test_*"]
 markers = [
-    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
-    "integration: marks tests as integration tests",
     "unit: marks tests as unit tests",
-    "api: marks tests as API tests",
     "core: marks tests as core functionality tests",
-    "data: marks tests as data processing tests",
 ]
 filterwarnings = [
     "error",
